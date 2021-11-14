@@ -50,7 +50,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github Respository](https://github.com/jordan-na/Space-Tourism-Multi-Page-App.git)
-- Live Site URL: [Hosted on Github Pages](https://your-live-site-url.com)
+- Live Site URL: [Hosted on Github Pages](https://jordan-na.github.io/Space-Tourism-Multi-Page-App/)
 
 ## My process
 
