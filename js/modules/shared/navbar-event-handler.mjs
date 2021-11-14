@@ -5,8 +5,8 @@ export const navbarEventHandler = (() => {
    const navbar = document.querySelector("#navbar-main");
    const navItems = document.querySelectorAll("#navbar-main ul li");
    const imgSrcs = [
-      "../assets/shared/icon-hamburger.svg",
-      "../assets/shared/icon-close.svg"
+      "./assets/shared/icon-hamburger.svg",
+      "./assets/shared/icon-close.svg"
    ];
    let open = false;
 
