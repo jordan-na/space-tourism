@@ -2,7 +2,7 @@ import { eventHandler } from "./modules/technology/event-handler.mjs";
 import { technologyController } from "./modules/technology/technology-controller.mjs";
 
 const init = async () => {
-   await fetch("../data.json")
+   await fetch("./data.json")
       .then((response) => {
          if (!response.ok) throw Error(response.statusText);
          return response;

@@ -2,7 +2,7 @@ import { eventHandler } from "./modules/crew/event-handler.mjs";
 import { crewController } from "./modules/crew/crew-controller.mjs";
 
 const init = async () => {
-   await fetch("../data.json")
+   await fetch("./data.json")
       .then((response) => {
          if(!response.ok) throw new Error(response.statusText);
          return response;

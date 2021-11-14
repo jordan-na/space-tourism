@@ -2,7 +2,7 @@ import { eventHandler } from "./modules/destination/event-handler.mjs";
 import { destinationController } from "./modules/destination/destination-controller.mjs";
 
 const init = async () => {
-   await fetch("../data.json")
+   await fetch("./data.json")
       .then((response) => {
          if (!response.ok) throw Error(response.statusText);
          return response;
