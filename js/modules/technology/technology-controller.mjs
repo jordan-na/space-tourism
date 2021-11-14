@@ -55,13 +55,13 @@ export const technologyController = (() => {
       if (changeToPortrait == null) changeToPortrait = window.innerWidth > 965;
       if (window.innerWidth > 965) {
          if (changeToPortrait) {
-            techImg.src = "." + technologies[imgIndex].images.portrait;
+            techImg.src = technologies[imgIndex].images.portrait;
             changeToPortrait = false;
             isPortrait = true;
          }
       } else {
          if (!changeToPortrait) {
-            techImg.src = "." + technologies[imgIndex].images.landscape;
+            techImg.src = technologies[imgIndex].images.landscape;
             changeToPortrait = true;
             isPortrait = false;
          }
