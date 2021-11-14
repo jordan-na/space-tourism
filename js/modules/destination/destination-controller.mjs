@@ -17,7 +17,7 @@ export const destinationController = (() => {
       changeSelectedNav(this);
       changeElementContent(destination);
       await orbitPlanet(300, "orbit-out");
-      const imgSrc = "." + destination.images.png;
+      const imgSrc = destination.images.png;
       orbitPlanet(300, "orbit-in", imgSrc);
    };
 

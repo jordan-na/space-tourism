@@ -8,7 +8,6 @@ export const crewController = (() => {
 
    const initCrew = (crewArray) => {
       crew = crewArray;
-      console.log(crew);
    };
 
    const changeCrewMember = async function () {
@@ -17,7 +16,7 @@ export const crewController = (() => {
       changeSelectedNav(this);
       changeElementContent(crewMember);
       await changeCrewImg(300, "fade-out");
-      const imgSrc = "." + crewMember.images.png;
+      const imgSrc = crewMember.images.png;
       changeCrewImg(300, "fade-in", imgSrc);
    };
 

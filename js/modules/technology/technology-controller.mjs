@@ -10,7 +10,6 @@ export const technologyController = (() => {
 
    const initTechnologies = (technologiesArray) => {
       technologies = technologiesArray;
-      console.log(technologies);
       changeImgSize();
    };
 
@@ -21,7 +20,7 @@ export const technologyController = (() => {
       changeSelectedNav(this);
       changeElementContent(technology);
       await fadeImg(300, "fade-out");
-      const imgSrc = isPortrait ? "." + technology.images.portrait : "." + technology.images.landscape;
+      const imgSrc = isPortrait ? technology.images.portrait : technology.images.landscape;
       fadeImg(300, "fade-in", imgSrc);
    };
 
