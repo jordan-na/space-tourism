@@ -23,7 +23,7 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 - View each page and be able to toggle between the tabs to see new information
 
-### Screenshot
+### Screenshots
 
 ***Desktop Layout*** (1440 X 900)\
 ![](./screenshots/desktop/home-desktop.png)
